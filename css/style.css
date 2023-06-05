@@ -363,7 +363,7 @@
     padding-top: 50px;
     padding-bottom: 100px;
     background: #191A1C; 
-    height:auto; 
+    height:420px; 
     color:white; 
     text-align:center; 
     padding:0px!important; 
@@ -456,7 +456,7 @@
 
 @media only screen and (min-width:450px){
     .portfolio-container {
-        padding-top: 150px!important;
+        padding-top: 50px!important;
         padding-bottom: 100px;
         background: #191A1C;
         height: auto;
@@ -561,6 +561,146 @@
 
     .testimonial-card p{
         padding:0px 10px;
+    }
+}
+
+.contact-container {
+    padding-top: 0px;
+    padding-bottom: 100px;
+    background: #191A1C;
+    height: 160vh;
+    color: white;
+    text-align: center;
+    padding: 0px !important;
+    margin: 0px !important;
+    //border: 10px solid red;
+}
+
+.contact-container-inner {
+    padding: 0px 100px;
+    height: 100%;
+    //border:3px solid blue;
+}
+
+.contact-icon {
+    font-size: 36px;
+    color: #9DA1A5; 
+}
+
+
+
+.contact-row-upper{
+    margin-top:50px;
+    //border:2px solid white; 
+    height:25%; 
+}
+
+.contact-row-bottom {
+    margin-top: 20px;
+    //border: 2px solid red;
+    height: 50%;
+}
+
+.contact-form {
+    //border: 1px solid white;
+    background-color: #202224; 
+
+}
+
+input {
+    background-color: #202224!important;
+}
+
+input:focus {
+    background-color: #202224!important;
+    border:none!important;
+}
+
+textarea:focus {
+    background-color: #202224 !important;
+    border: none !important;
+}
+
+.subject::placeholder {
+    color: #93979b;
+}
+
+.msg::placeholder {
+    color: #93979b;
+}
+
+.name::placeholder {
+    color: #93979b;
+}
+
+.email::placeholder {
+    color: #93979b;
+}
+
+
+
+
+
+.form-control {
+    border: 1px solid #37393A;
+    background-color: #202224;
+    color:white; 
+    border-radius:0px!important;
+    font-size:14px;
+}
+
+.btn-custom{
+    border:1px solid white; 
+    margin-left:0px;
+}
+
+.contact-card {
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+    .contact-card p {
+        color: #9DA1A1;
+        font-size:14px;
+    }
+
+    .contact-card h6 {
+        color: #9DA1A1;
+        font-size: 16px;
+    }
+
+.btn {
+    background-color: #9D8F73; 
+    color:white; 
+    border:none!important;
+    text-transform:uppercase; 
+}
+
+.contact-row-left, .contact-row-right{
+    height:80%; 
+    //border:10px solid black; 
+}
+
+@media only screen and (max-width:480px){
+    .contact-container{
+        height:auto; 
+    }
+
+    .contact-container-inner{
+        padding:0px 0px!important; 
+    }
+
+    .contact-card {
+        margin: 30px auto;
+        //border: 1px solid white;
+        
+    }
+
+    .contact-row-upper{
+        //border:1px solid white; 
     }
 }
 
