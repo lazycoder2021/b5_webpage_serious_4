@@ -83,6 +83,7 @@
 .about-container {
     height: 130vh;
     background-color: #191A1C; 
+    //border:10px solid red; 
 }
 
 .about-wrapper{
@@ -330,7 +331,7 @@
 
 @media only screen and (max-width:480px){
     .services-container{
-        height:380vh; 
+        height:auto; 
     }
 
     .services-wrapper-bottom {
@@ -541,7 +542,7 @@
 
 @media only screen and (max-width:360px) {
     .services-container {
-        height: 440vh;
+        height: auto;
         
         //border:1px solid red;
     }
