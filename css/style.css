@@ -454,7 +454,7 @@
     
 }
 
-@media only screen and (min-width:450px){
+@media only screen and (min-width:320px){
     .portfolio-container {
         padding-top: 50px!important;
         padding-bottom: 100px;
@@ -463,7 +463,7 @@
         color: white;
         text-align: center;
         //padding: 0px !important;
-        //margin: 0px !important;
+        
         //border:10px solid red;
     }
 }
@@ -542,6 +542,7 @@
 @media only screen and (max-width:360px) {
     .services-container {
         height: 440vh;
+        
         //border:1px solid red;
     }
 
@@ -704,6 +705,11 @@ textarea:focus {
     }
 }
 
+@media only screen and (max-width:440px){
+    body:{
+        background-color:red; 
+    }
+}
     
 
 
